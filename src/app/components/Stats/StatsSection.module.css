@@ -1,7 +1,7 @@
 .statsSection {
     display: flex;
     justify-content: space-evenly;
-    background-color: #474747; /* Dark background for contrast */
+    background-color: #474747; 
     padding: 43px 0 53px;
     color: #fff;
   }

@@ -1,9 +1,9 @@
-/* Background image for the entire header */
+
 .top{
   background-image: url('https://www.indusnet.co.in/lp/emerge/assets/lib/images/banner/bg.jpg');
     background-size: cover;
-    height: 1050px; /* Adjust as per your design */
-    position: relative; /* Make `.top` the positioning context */
+    height: 1050px; 
+    position: relative;
   padding-top: 80px;
 }
 
@@ -13,7 +13,6 @@
     justify-content: space-between;
 }
   
-  /* Navbar container */
   .navbar {
     width: 100%;
     display: flex;
@@ -22,8 +21,8 @@
     position: fixed;
     top: 0;
     z-index: 10; 
-    background-color: transparent; /* Make sure navbar has a transparent background */
-    padding: 10px 20px; /* Adjust padding for spacing */
+    background-color: transparent; 
+    padding: 10px 20px; 
     transition: background-color 0.3s ease; /* Smooth transition for background */
   }
   
@@ -33,12 +32,11 @@
     border-bottom: 2px solid #fff; /* White line under the navbar */
   }
   
-  /* Logo Styling */
   .logo {
-    width: 80px; /* Adjust the size to make the logo bigger */
-    height: 80px; /* Maintain a circular form */
-    object-fit: cover; /* Ensures the image fits the container without distortion */
-    border-radius: 50%; /* Makes the logo circular */
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+    border-radius: 50%;
     overflow: hidden;
   }
   
@@ -49,7 +47,7 @@
     }
   } */
   
-  /* Contact Us button styling */
+  
   .contactButton {
     font-size: 16px;
     padding: 2.2rem 3.5rem;
@@ -72,10 +70,10 @@
   
   /* Hover effect */
   .contactButton:hover {
-    background-color: #337ab7; /* Change to the hover color */
-    color: #fff; /* Ensure text remains white */
-    transform: scale(1.05); /* Slight zoom-in effect */
-    box-shadow: 0 0 15px rgba(51, 122, 183, 0.5); /* Add a glowing effect */
+    background-color: #337ab7; 
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(51, 122, 183, 0.5); 
   }
   
   @media (max-width: 768px) {

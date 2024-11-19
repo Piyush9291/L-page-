@@ -15,13 +15,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Adds space between logos */
+    gap: 20px; 
   }
   
   .customerLogo {
-    width: 120px; /* Set a default size for logos */
-    height: auto; /* Keeps aspect ratio */
-    object-fit: contain; /* Ensures logos are well displayed */
+    width: 120px; 
+    height: auto;
+    object-fit: contain; 
   }
   
   @media (max-width: 768px) {
@@ -30,13 +30,13 @@
         margin-bottom: 18px;
       }
     .logoContainer {
-      flex-direction: column; /* Stack logos in a column */
-      gap: 10px; /* Reduce gap on smaller screens */
+      flex-direction: column;
+      gap: 10px; 
       align-items: center;
     }
   
     .customerLogo {
-      width: 80px; /* Adjust logo size for smaller screens */
+      width: 80px; 
     }
   }
   

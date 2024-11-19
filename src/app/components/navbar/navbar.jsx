@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import styles from './Navbar.module.css'; // Update with your actual CSS file path
+import styles from './Navbar.module.css'; 
 import HeaderContent from '../HeaderContent/HeaderContent';
 import Vision from '../vision/vision';
 import Customers from '../customers/customers';
@@ -20,9 +20,9 @@ const Navbar = () => {
     // Function to check if page is scrolled
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setIsScrolled(true); // Add scrolled class if scrolled
+        setIsScrolled(true); 
       } else {
-        setIsScrolled(false); // Remove scrolled class if at the top
+        setIsScrolled(false); 
       }
     };
 
@@ -40,12 +40,10 @@ const Navbar = () => {
     <div className={styles.top}>
     <header className={`${styles.header}`}>
       <div className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
-        {/* Logo */}
         <div className={styles.logo}>
           <Image src="/timidllyLogo.jpg" alt="Logo" width={80} height={80} />
         </div>
 
-        {/* Contact Us Button */}
         <Link href="https://www.timidlly.com/build-together"><button className={styles.contactButton}>Contact Us</button></Link>
       </div>
     </header>

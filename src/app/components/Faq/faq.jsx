@@ -6,9 +6,9 @@ const Faq = () => {
 
   const toggleFaq = (index) => {
     if (openIndex === index) {
-      setOpenIndex(null); // Close if it's already open
+      setOpenIndex(null); 
     } else {
-      setOpenIndex(index); // Open the selected item
+      setOpenIndex(index); 
     }
   };
 

@@ -69,35 +69,35 @@
     display: block;
   }
   
-  /* Media Query for Mobile Devices (below 640px) */
+  
   @media screen and (max-width: 640px) {
     .faqContainer {
-      width: 90%; /* Adjust width for smaller screens */
-      padding: 40px 16px; /* Adjust padding */
+      width: 90%;
+      padding: 40px 16px;
     }
     
     .faqTitle {
-      font-size: 28px; /* Reduce title size */
+      font-size: 28px; 
       line-height: 36px;
       margin-bottom: 20px;
     }
     
     .faqQuestion {
-      padding: 20px; /* Reduce padding for questions */
+      padding: 20px; 
       font-size: 16px;
       line-height: 18px;
     }
   
     .faqAnswer {
-      padding: 10px 15px; /* Reduce padding for the answer */
+      padding: 10px 15px;
     }
     
     .faqAnswer p {
-      font-size: 13px; /* Adjust answer text size */
+      font-size: 13px;
     }
   }
   
-  /* Media Query for Very Small Devices (below 480px) */
+  
   @media screen and (max-width: 480px) {
     .faqContainer {
       width: 100%;

@@ -2,17 +2,14 @@
     max-width: 1140px;
     width: 100%;
     padding: 4rem 3rem;
-    /* Combines padding-right and padding-left */
     margin: 0 auto;
-    /* Centers the container */
     text-align: center;
-    /* Ensures all children are centered */
 }
 
 .title {
     font-size: 40px;
     font-weight: 600;
-    color: #20396E; /* Adjust color as needed */
+    color: #20396E; 
     margin-bottom: 30px;
   }
 
@@ -22,11 +19,8 @@
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
     margin-bottom: 1.5rem;
-    /* Adds some spacing before the button */
     max-width: 800px;
-    /* Restricts the width of the description */
     margin: 0 auto 1.5rem auto;
-    /* Centers the description and adds bottom margin */
 }
 
 .logoContainer {
@@ -34,25 +28,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    /* Adds space between logos */
 }
 
 .customerLogo {
     width: 120px;
-    /* Set a default size for logos */
     height: auto;
-    /* Keeps aspect ratio */
     object-fit: contain;
-    /* Ensures logos are well displayed */
 }
 
 @media (max-width: 380px) {
     .desc {
         font-size: 18px;
-        /* Adjusts font size for smaller screens */
         line-height: 30px;
         max-width: 90%;
-        /* Makes the description more responsive */
     }
 
     .title {
@@ -63,14 +51,11 @@
 
     .logoContainer {
         flex-direction: column;
-        /* Stack logos in a column */
         align-items: center;
         gap: 30px;
-        /* Reduce gap on smaller screens */
     }
 
     .customerLogo {
         width: 100px;
-        /* Adjust logo size for smaller screens */
     }
 }
