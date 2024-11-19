@@ -1,0 +1,42 @@
+.customerSection {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; 
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #20396E; 
+    margin-bottom: 30px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds space between logos */
+  }
+  
+  .customerLogo {
+    width: 120px; /* Set a default size for logos */
+    height: auto; /* Keeps aspect ratio */
+    object-fit: contain; /* Ensures logos are well displayed */
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+        font-size: 30px;  
+        margin-bottom: 18px;
+      }
+    .logoContainer {
+      flex-direction: column; /* Stack logos in a column */
+      gap: 10px; /* Reduce gap on smaller screens */
+      align-items: center;
+    }
+  
+    .customerLogo {
+      width: 80px; /* Adjust logo size for smaller screens */
+    }
+  }
+  

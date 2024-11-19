@@ -1,0 +1,211 @@
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: transparent;
+  gap: 40px;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.leftSide {
+  flex: 1;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.headerTitle {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 700;
+  margin-bottom: 2.8rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.subTitle {
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Right side form styling */
+.rightSide {
+  flex: 1;
+  max-width: 500px;
+  border: 1px solid black;
+  padding: 36px 45px 38px;
+  border-radius: 18px;
+  box-shadow: 0 .5rem 5rem rgb(0 0 0 / 25%);
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+.queryText {
+  font-size: 15px;
+  margin: 19.9px 0px;
+  color: #000;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.getStarted {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: rgba(32, 57, 110, 1);
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+/* Form styles */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+
+.contactForm input:not([type="radio"]):not([type="checkbox"]),
+.contactForm select {
+  width: 100%;
+  /* Ensures the input fields take full width */
+  background-color: #F5F8FA;
+  padding: 10px 15px;
+  /* Adjusted padding for a better look */
+  line-height: 40px;
+  margin: 10px 0;
+  border-radius: 15px;
+  border: 1px solid #000;
+  font-size: 14px;
+  box-sizing: border-box;
+  /* Ensures padding is included in width calculation */
+}
+
+
+
+
+.contactForm .budgetOptions {
+  margin: 10px 0;
+}
+
+.contactForm label,
+.contactForm input {
+  color: #33475b;
+  font-size: 14px;
+}
+
+.about {
+  color: #33475b;
+  font-size: 14px;
+}
+
+.contactForm .checkboxContainer {
+  margin: 15px 0;
+
+}
+
+.submitButton {
+  width: max-content;
+  background-color: #fd5f00;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+
+.submitButton button:hover {
+  background-color: #337ab7;
+}
+
+
+/* Responsive adjustments for mobile */
+@media (max-width: 1024px) {
+  .headerContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftSide {
+    order: 1;
+    text-align: center;
+  }
+
+  .rightSide {
+    order: 2;
+    margin-bottom: 2rem;
+  }
+
+  .contactForm input,
+  .contactForm select {
+    padding: 10px;
+  }
+
+  .submitButton {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftSide {
+    margin-top: 0.1rem;
+  }
+
+  .headerTitle {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+  }
+
+
+  .subTitle {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+
+  }
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+
+@media (max-width: 400px) {
+  .headerContent {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .rightSide {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .contactForm input,
+  .contactForm select {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .submitButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+}

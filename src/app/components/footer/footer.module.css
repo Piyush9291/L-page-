@@ -1,0 +1,174 @@
+/* Header content section */
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 3rem;
+    background-color: transparent;
+    gap: 40px;
+    position: relative;
+    margin-top: 50px;
+    background-color: rgba(41, 44, 48, 1);
+  }
+  
+  /* Left side text styling */
+  .leftSide { 
+    flex: 1;
+    color: #000;
+    margin-top: 1rem;
+  }
+  
+  .headerTitle {
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 2.8rem;
+    color: rgba(180, 180, 180, 1);
+  }
+  
+  .subTitle {
+    text-align: left;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  /* Right side form styling */
+  .rightSide {
+    flex: 1;
+    max-width: 500px;
+    border: 1px solid black;
+    padding: 36px 45px 38px;
+    border-radius: 18px;
+    box-shadow: 0 .5rem 5rem rgb(0 0 0 / 25%);
+    background-color: rgba(255, 255, 255, 1);
+  
+  }
+  
+  .queryText {
+    font-size: 15px;
+    margin: 19.9px 0px;
+    color: #000;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+  
+  .getStarted {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: rgba(32, 57, 110, 1);
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+  
+  /* Form styles */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  
+  
+  .contactForm input, 
+  .contactForm Select{
+    background-color: #F5F8FA;
+   padding: 0px 15px;
+   line-height: 40px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: 1px solid #000;
+    font-size: 14px;
+    flex: 1;
+  }
+  
+  
+  
+  .contactForm .budgetOptions {
+    margin: 10px 0;
+  }
+  
+  .contactForm label,
+  .contactForm input {
+    color: #33475b;
+    font-size: 14px;
+  }
+  
+  .about{
+    color: #33475b;
+    font-size: 14px;
+  }
+  .contactForm .checkboxContainer {
+    margin: 15px 0;
+    
+  }
+  
+  .submitButton {
+    width: max-content; /* Keeps the button width dynamic based on its content */
+    background-color: #fd5f00;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 20px; /* Adjust padding for a balanced look */
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  
+  .submitButton button:hover {
+    background-color: #337ab7; /* Change color on hover */
+  }
+  
+  
+  /* Responsive adjustments for mobile */
+  @media (max-width: 1024px) {
+    .headerContent {
+      flex-direction: column;
+      align-items: left;
+    }
+  
+    .leftSide {
+      order: 1;
+      text-align: center;
+    }
+  
+    .rightSide {
+      order: 2;
+      margin-bottom: 2rem;
+    }
+  
+    .contactForm input,
+    .contactForm select {
+      padding: 10px;
+    }
+  
+    .submitButton {
+      padding: 15px;
+      font-size: 16px;
+    }
+  }
+  
+  /* For smaller devices */
+  @media (max-width: 768px) {
+    .leftSide { 
+      margin-top: 0.1rem;
+    }
+    .headerTitle {
+      font-size: 36px;
+      line-height: 42px;
+      margin-bottom: 1rem;
+    }
+    
+  
+    .subTitle {
+      font-size: 20px;
+      line-height: 27px;
+      font-weight: 600;
+      
+    }
+  }

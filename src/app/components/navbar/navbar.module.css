@@ -1,0 +1,103 @@
+/* Background image for the entire header */
+.top{
+  background-image: url('https://www.indusnet.co.in/lp/emerge/assets/lib/images/banner/bg.jpg');
+    background-size: cover;
+    height: 1050px; /* Adjust as per your design */
+    position: relative; /* Make `.top` the positioning context */
+  padding-top: 80px;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+  
+  /* Navbar container */
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10; 
+    background-color: transparent; /* Make sure navbar has a transparent background */
+    padding: 10px 20px; /* Adjust padding for spacing */
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+  }
+  
+  /* White line when scrolling */
+  .navbar.scrolled {
+    background-color: white; /* White background when scrolled */
+    border-bottom: 2px solid #fff; /* White line under the navbar */
+  }
+  
+  /* Logo Styling */
+  .logo {
+    width: 80px; /* Adjust the size to make the logo bigger */
+    height: 80px; /* Maintain a circular form */
+    object-fit: cover; /* Ensures the image fits the container without distortion */
+    border-radius: 50%; /* Makes the logo circular */
+    overflow: hidden;
+  }
+  
+  /* @media (max-width: 480px) {
+    .logo {
+      width: 50px; 
+      height: 50px; 
+    }
+  } */
+  
+  /* Contact Us button styling */
+  .contactButton {
+    font-size: 16px;
+    padding: 2.2rem 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #fd5f00;
+    border-radius: 10rem;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-shadow: none;
+    outline: 0;
+    z-index: 1;
+    color: #fff;
+    border: 0;
+    margin-right: 30px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .contactButton:hover {
+    background-color: #337ab7; /* Change to the hover color */
+    color: #fff; /* Ensure text remains white */
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0 0 15px rgba(51, 122, 183, 0.5); /* Add a glowing effect */
+  }
+  
+  @media (max-width: 768px) {
+    .contactButton {
+      font-size: 12px;
+      padding: 12px 20px;
+    }
+  }
+  
+  @media (max-width: 1024px){
+    .top{
+      background-image: url('https://www.indusnet.co.in/lp/emerge/assets/lib/images/banner/bg.jpg');
+        background-size: cover;
+        height: 1400px; 
+    }
+  }
+
+  @media (max-width: 640px){
+    .top{
+      background-image: url('https://www.indusnet.co.in/lp/emerge/assets/lib/images/banner/bg.jpg');
+        background-size: cover;
+        height: 1500px; 
+    }
+  }
+  
