@@ -41,7 +41,7 @@ const Navbar = () => {
     <header className={`${styles.header}`}>
       <div className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
         <div className={styles.logo}>
-          <Image src="/timidllyLogo.jpg" alt="Logo" width={80} height={80} />
+          <Image src="/TimidllyLogo.svg" alt="Logo" width={80} height={80} />
         </div>
 
         <Link href="https://www.timidlly.com/build-together"><button className={styles.contactButton}>Contact Us</button></Link>
