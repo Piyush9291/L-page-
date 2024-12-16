@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "./Faq.module.css";
+import styles from "./faq.module.css";
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
